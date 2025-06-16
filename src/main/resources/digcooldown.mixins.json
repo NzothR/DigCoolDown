@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.nzoth.DigCoolDown.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "digcooldown.refmap.json",
+  "mixins": [
+    "MultiPlayerGameModeMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
